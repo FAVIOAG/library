@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Libreria</title>
+</head>
+<body>
+    <section>
+        <div class='nav'> <h1> Consulta Biblioteca</h1></div>
+    </section>
+        <h1 class='title'>Ingrese su titulo y  descripcion</h1>
+<div class='contModes'>
+<h2 class= 'tit1'>Busqueda</h2>
+<h2  class= 'tit2'>Agregar libros</h2>
+</div>
+        <div class='columns'>
+    <div class='inputCont1'>  
+        <div class='cont1'>
+        <h2>Titulo: </h2>
+        <h2>Autor: </h2>
+        <h2>Fecha publicación: </h2>
+        <h2>Genero: </h2>
+        </div>
+        <div class='cont1'>
+        
+             <div class="inputDiv"><input type="text" class='inputall' id='titleA'><input type="checkbox" name="" id='checkTit'></div>
+        
+            <div class="inputDiv"><input type="text" class='inputall' id='authorA'><input type="checkbox" name="" id='checkAuth'></div>
+            
+            <div class="inputDiv"><input type="text" class='inputall' id='publi_dateA'><input type="checkbox" name="" id='checkDate'></div>
+            
+            <div class="inputDiv"><input type="text" class='inputall' id='genreA'><input type="checkbox" name="" id='checkGenre'></div>
+        </div>
+        <div class='divSearchBtn'><button class='searchBtn' id='searchBtn'> Buscar </button></div>
+    </div>
+    <div class='inputCont2'>    
+        <div class='cont1'>
+            <h2>Titulo: </h2>
+            <h2>Autor: </h2>
+            <h2>Fecha publicación: </h2>
+            <h2>Genero: </h2>
+            </div>
+            <div class='cont1'>
+            <div class="inputDiv"><input type="text" class='inputall' id='titleB'></div>
+            <div class="inputDiv"><input type="text" class='inputall' id='authorB'></div>
+            <div class="inputDiv"><input type="text" class='inputall' id='publi_dateB'></div>
+            <div class="inputDiv"><input type="text" class='inputall' id='genreB'></div>
+            </div>
+            <div class="buttons">
+            <div class='divSearchBtn'><button class='searchBtn' id='addBtn'> Agregar </button></div>
+            <button class='searchBtn' id='displayAll'>Ver todo</button>
+        </div>
+        </div>
+    </div>
+</div>
+    <section>
+        <div class='js_cards' id = 'jscards'>
+        </div>
+        <div class="js_cards" id = 'searchJsCards'></div>
+        <div class="js_cards" id = 'showAll'></div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>

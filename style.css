@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}
+
+body{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    padding: 2rem;
+    background-color: aqua;
+    border: dotted black;
+    border-radius: 15px;
+    border-width: thin;
+}
+
+.nav{
+    background-color: cornflowerblue;
+    text-align: center;
+    border: dotted black;
+    border-radius: 15px;
+    border-width: thin;
+}
+.contModes{
+    display: flex;
+    margin: 1rem;
+}
+
+.tit1{
+    flex-basis: 50%;
+    border: dotted black;
+    border-radius: 15px;
+    border-width: thin;
+    text-align: center;
+}
+.tit2{
+    flex-basis: 50%;
+    border: dotted black;
+    border-radius: 15px;
+    border-width: thin;
+    text-align: center;
+}
+
+
+.columns{
+    display: flex; 
+    height: 30vh;   
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+}
+.inputCont1{
+flex-basis: 50%; 
+display: flex;
+background-color: rgb(204, 255, 86);
+padding: 1rem;
+align-items: center;
+border: dotted black;
+border-radius: 15px;
+border-width: thin
+
+}
+
+
+
+.inputCont2{
+    flex-basis: 50%; 
+    display: flex;
+    background-color: green;
+    padding: 1rem;
+    align-items: center;
+    border: dotted black;
+    border-radius: 15px;
+    border-width: thin
+  }
+
+.inputDiv{
+    display: flex;
+}
+
+.inputall{
+    width: 25vw;
+    margin: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.buttons {
+    margin-left: 2.4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBtn{
+    width: 5vw;
+    height: 10vh;
+    justify-content: center;
+    margin-left: 2.4vw;
+}
+
+.js_cards{
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.div1{
+    background-color: lightgray;
+    width: 20vw;
+    height: 25vh ;
+    border-radius: 15px;
+    border: dotted black;
+    border-width: thin;
+    margin: 3px;
+    
+}
